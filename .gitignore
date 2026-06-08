@@ -1,0 +1,10 @@
+﻿# input: Git 工作区中的本地运行副产物。
+# output: 审计仓库版本控制排除规则。
+# pos: 根目录 Git 忽略规则；一旦我被更新，务必更新开头注释以及 FOLDER_README.md。
+
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
