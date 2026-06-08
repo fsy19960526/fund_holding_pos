@@ -1,7 +1,7 @@
 ﻿{
     "status":  "success",
-    "captured_at_utc":  "2026-06-08T05:22:03.5465367Z",
-    "captured_at_local":  "2026-06-08T13:22:03",
+    "captured_at_utc":  "2026-06-08T05:26:25.3677650Z",
+    "captured_at_local":  "2026-06-08T13:26:25",
     "snapshot_date":  "2026-06-08",
     "command":  "\"D:\\freqtrade\\.venv\\Scripts\\python.exe\" \"D:\\freqtrade\\user_func\\strategies\\research\\str_etf_v1\\live\\show_recent_positions.py\" --days 8 --save",
     "days":  8,
@@ -20,8 +20,6 @@
                 "attempted":  true,
                 "committed":  false,
                 "pushed":  false,
-                "commit_expected":  true,
-                "push_expected":  true,
-                "message":  "commit and push expected"
+                "message":  "snapshot commit and push pending"
             }
 }

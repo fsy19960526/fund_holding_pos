@@ -112,8 +112,6 @@ $gitResult = [ordered]@{
     attempted = $false
     committed = $false
     pushed = $false
-    commit_expected = $false
-    push_expected = $false
     message = $null
 }
 
@@ -141,20 +139,16 @@ if (-not $DryRun) {
     Push-Location -LiteralPath $repoRoot
     try {
         $gitResult.attempted = $true
+        $gitResult.message = if ($NoPush) { 'snapshot commit pending; push disabled' } else { 'snapshot commit and push pending' }
+        $meta.git = $gitResult
+        Write-JsonFile -Path $metaPath -Data $meta
+
         git add README.md FOLDER_README.md .gitignore scripts snapshots
         git diff --cached --quiet
         if ($LASTEXITCODE -eq 0) {
             $gitResult.message = 'no staged changes'
-            $meta.git = $gitResult
-            Write-JsonFile -Path $metaPath -Data $meta
         }
         else {
-            $gitResult.commit_expected = $true
-            $gitResult.push_expected = -not [bool]$NoPush
-            $gitResult.message = if ($NoPush) { 'commit expected; push disabled' } else { 'commit and push expected' }
-            $meta.git = $gitResult
-            Write-JsonFile -Path $metaPath -Data $meta
-            git add snapshots
             $commitMessage = "position snapshot $snapshotDate"
             git commit -m $commitMessage
             if ($LASTEXITCODE -ne 0) {
@@ -167,6 +161,10 @@ if (-not $DryRun) {
                     throw 'git push failed'
                 }
                 $gitResult.pushed = $true
+                $gitResult.message = 'snapshot commit pushed'
+            }
+            else {
+                $gitResult.message = 'snapshot commit created; push disabled'
             }
         }
     }
@@ -176,6 +174,27 @@ if (-not $DryRun) {
         $gitResult.message = $_.Exception.Message
     }
     finally {
+        $meta.status = $status
+        $meta.exit_code = $exitCode
+        $meta.git = $gitResult
+        Write-JsonFile -Path $metaPath -Data $meta
+
+        git add snapshots
+        git diff --cached --quiet
+        if ($LASTEXITCODE -ne 0) {
+            git commit -m "position snapshot $snapshotDate git result"
+            if ($LASTEXITCODE -ne 0) {
+                $status = 'failure'
+                $exitCode = 1
+            }
+            elseif ((-not $NoPush) -and $gitResult.pushed) {
+                git push $RemoteName $Branch
+                if ($LASTEXITCODE -ne 0) {
+                    $status = 'failure'
+                    $exitCode = 1
+                }
+            }
+        }
         Pop-Location
     }
 }
