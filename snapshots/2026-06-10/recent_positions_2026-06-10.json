@@ -1,0 +1,244 @@
+[
+  {
+    "date": "2026-06-01",
+    "top_positions": [
+      {
+        "symbol": "000688.SH",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.234655
+      },
+      {
+        "symbol": "000815.CSI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.031747
+      },
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.145797
+      },
+      {
+        "symbol": "931787CNY00.CSI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.094337
+      },
+      {
+        "symbol": "h30199.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.244754
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 15
+  },
+  {
+    "date": "2026-06-02",
+    "top_positions": [
+      {
+        "symbol": "000015.SH",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.013379
+      },
+      {
+        "symbol": "000993.SH",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.183787
+      },
+      {
+        "symbol": "950125.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.246695
+      },
+      {
+        "symbol": "980022.CNI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.07347
+      },
+      {
+        "symbol": "980030.CNI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.232326
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 10
+  },
+  {
+    "date": "2026-06-03",
+    "top_positions": [
+      {
+        "symbol": "399998.SZ",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.56904
+      },
+      {
+        "symbol": "950125.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.142408
+      },
+      {
+        "symbol": "980030.CNI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.301848
+      },
+      {
+        "symbol": "h30184.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.211939
+      },
+      {
+        "symbol": "h30533.CSI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.09335
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 7
+  },
+  {
+    "date": "2026-06-04",
+    "top_positions": [
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.306782
+      },
+      {
+        "symbol": "000993.SH",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.010967
+      },
+      {
+        "symbol": "399998.SZ",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.010819
+      },
+      {
+        "symbol": "980030.CNI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.075176
+      },
+      {
+        "symbol": "h30184.CSI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.067825
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 2
+  },
+  {
+    "date": "2026-06-05",
+    "top_positions": [
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.172356
+      },
+      {
+        "symbol": "930707.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.157232
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 2
+  },
+  {
+    "date": "2026-06-08",
+    "top_positions": [
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.160159
+      },
+      {
+        "symbol": "930707.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.144521
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 3
+  },
+  {
+    "date": "2026-06-09",
+    "top_positions": [
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": 0.010033
+      },
+      {
+        "symbol": "930707.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.143449
+      },
+      {
+        "symbol": "980030.CNI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.175646
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 4
+  },
+  {
+    "date": "2026-06-10",
+    "top_positions": [
+      {
+        "symbol": "000815.CSI",
+        "weight": 0.25,
+        "signal": 1.0,
+        "prediction": 0.110591
+      },
+      {
+        "symbol": "930707.CSI",
+        "weight": 0.25,
+        "signal": 1.0,
+        "prediction": 0.196909
+      },
+      {
+        "symbol": "931790.CSI",
+        "weight": 0.25,
+        "signal": 1.0,
+        "prediction": 0.454012
+      },
+      {
+        "symbol": "980030.CNI",
+        "weight": 0.25,
+        "signal": 0.0,
+        "prediction": 0.049767
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 4
+  }
+]
