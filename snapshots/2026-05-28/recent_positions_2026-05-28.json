@@ -1,0 +1,225 @@
+[
+  {
+    "date": "2026-05-19",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 1
+  },
+  {
+    "date": "2026-05-20",
+    "top_positions": [
+      {
+        "symbol": "931238.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.153981
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 2
+  },
+  {
+    "date": "2026-05-21",
+    "top_positions": [
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.259884
+      },
+      {
+        "symbol": "931238.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.440581
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 8
+  },
+  {
+    "date": "2026-05-22",
+    "top_positions": [
+      {
+        "symbol": "000688.SH",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.082785
+      },
+      {
+        "symbol": "399330.SZ",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.163465
+      },
+      {
+        "symbol": "399673.SZ",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.050062
+      },
+      {
+        "symbol": "931238.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.352448
+      },
+      {
+        "symbol": "980030.CNI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.165539
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 5
+  },
+  {
+    "date": "2026-05-25",
+    "top_positions": [
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.327117
+      },
+      {
+        "symbol": "399330.SZ",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.132731
+      },
+      {
+        "symbol": "399987.SZ",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.204394
+      },
+      {
+        "symbol": "931238.CSI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.001619
+      },
+      {
+        "symbol": "980030.CNI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.169585
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 6
+  },
+  {
+    "date": "2026-05-26",
+    "top_positions": [
+      {
+        "symbol": "000815.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.157373
+      },
+      {
+        "symbol": "000932.SH",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.245624
+      },
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.285293
+      },
+      {
+        "symbol": "399987.SZ",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.221907
+      },
+      {
+        "symbol": "980030.CNI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.056115
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 6
+  },
+  {
+    "date": "2026-05-27",
+    "top_positions": [
+      {
+        "symbol": "000815.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.381052
+      },
+      {
+        "symbol": "000932.SH",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.277205
+      },
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.268451
+      },
+      {
+        "symbol": "399987.SZ",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.195201
+      },
+      {
+        "symbol": "h11059.CSI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.003209
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 5
+  },
+  {
+    "date": "2026-05-28",
+    "top_positions": [
+      {
+        "symbol": "000815.CSI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.015934
+      },
+      {
+        "symbol": "000932.SH",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.068949
+      },
+      {
+        "symbol": "000949.CSI",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.281566
+      },
+      {
+        "symbol": "399330.SZ",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.019276
+      },
+      {
+        "symbol": "399987.SZ",
+        "weight": 0.2,
+        "signal": 1.0,
+        "prediction": 0.099255
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 4
+  }
+]

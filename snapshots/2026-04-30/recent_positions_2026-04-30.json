@@ -1,0 +1,64 @@
+[
+  {
+    "date": "2026-04-21",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-22",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-23",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 1
+  },
+  {
+    "date": "2026-04-24",
+    "top_positions": [
+      {
+        "symbol": "h30202.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": -0.173389
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-27",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-28",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-29",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 1
+  },
+  {
+    "date": "2026-04-30",
+    "top_positions": [
+      {
+        "symbol": "000932.SH",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.12653
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 3
+  }
+]

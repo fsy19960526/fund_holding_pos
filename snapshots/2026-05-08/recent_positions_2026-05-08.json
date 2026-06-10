@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2026-04-24",
+    "top_positions": [
+      {
+        "symbol": "h30202.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": -0.173389
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-27",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-28",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-29",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 1
+  },
+  {
+    "date": "2026-04-30",
+    "top_positions": [
+      {
+        "symbol": "000932.SH",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.12653
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 3
+  },
+  {
+    "date": "2026-05-06",
+    "top_positions": [
+      {
+        "symbol": "000815.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": -0.109254
+      },
+      {
+        "symbol": "000932.SH",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.09201
+      },
+      {
+        "symbol": "h11146.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": 0.098043
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 7
+  },
+  {
+    "date": "2026-05-07",
+    "top_positions": [
+      {
+        "symbol": "000685.SH",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.156801
+      },
+      {
+        "symbol": "000688.SH",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.049489
+      },
+      {
+        "symbol": "950125.CSI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.039421
+      },
+      {
+        "symbol": "980017.CNI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": -0.040981
+      },
+      {
+        "symbol": "h30184.CSI",
+        "weight": 0.2,
+        "signal": 0.0,
+        "prediction": 0.011339
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-05-08",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 1
+  }
+]

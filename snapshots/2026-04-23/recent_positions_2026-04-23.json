@@ -1,0 +1,102 @@
+[
+  {
+    "date": "2026-04-14",
+    "top_positions": [
+      {
+        "symbol": "930709.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": -0.022146
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 3
+  },
+  {
+    "date": "2026-04-15",
+    "top_positions": [
+      {
+        "symbol": "000932.SH",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": 0.031439
+      },
+      {
+        "symbol": "930707.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.212367
+      },
+      {
+        "symbol": "931775.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": 0.021304
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 2
+  },
+  {
+    "date": "2026-04-16",
+    "top_positions": [
+      {
+        "symbol": "930641.CSI",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.083366
+      },
+      {
+        "symbol": "930707.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": 0.046092
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 2
+  },
+  {
+    "date": "2026-04-17",
+    "top_positions": [
+      {
+        "symbol": "930641.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": 0.081181
+      },
+      {
+        "symbol": "h30533.CSI",
+        "weight": 0.3,
+        "signal": 0.0,
+        "prediction": -0.056017
+      }
+    ],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-20",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-21",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-22",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 0
+  },
+  {
+    "date": "2026-04-23",
+    "top_positions": [],
+    "n_predicted": 83,
+    "n_with_signal": 1
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2026-02-24",
+    "top_positions": [
+      {
+        "symbol": "000015.SH",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.108201
+      }
+    ],
+    "n_predicted": 82,
+    "n_with_signal": 1
+  },
+  {
+    "date": "2026-02-25",
+    "top_positions": [
+      {
+        "symbol": "000015.SH",
+        "weight": 0.3,
+        "signal": 1.0,
+        "prediction": 0.125787
+      }
+    ],
+    "n_predicted": 82,
+    "n_with_signal": 3
+  }
+]

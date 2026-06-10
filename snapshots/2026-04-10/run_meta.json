@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "backfill": true,
+  "captured_at_utc": "2026-06-10T08:51:39.119641Z",
+  "snapshot_date": "2026-04-10",
+  "requested_start_date": "2026-02-15",
+  "requested_end_date": "2026-06-07",
+  "actual_start_date": "2026-02-24",
+  "actual_end_date": "2026-06-05",
+  "display_dates": [
+    "2026-03-31",
+    "2026-04-01",
+    "2026-04-02",
+    "2026-04-03",
+    "2026-04-07",
+    "2026-04-08",
+    "2026-04-09",
+    "2026-04-10"
+  ],
+  "display_window_days": 8,
+  "artifact_dir": "D:\\freqtrade\\user_func\\strategies\\research\\str_etf_v1\\live\\artifacts\\etf_live_20260326_135439",
+  "history_end_date": "2026-03-17"
+}
