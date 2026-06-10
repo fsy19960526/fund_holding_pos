@@ -1,0 +1,25 @@
+﻿{
+    "status":  "success",
+    "captured_at_utc":  "2026-06-10T06:42:19.9071337Z",
+    "captured_at_local":  "2026-06-10T14:42:19",
+    "snapshot_date":  "2026-06-10",
+    "command":  "\"D:\\freqtrade\\.venv\\Scripts\\python.exe\" \"D:\\freqtrade\\user_func\\strategies\\research\\str_etf_v1\\live\\show_recent_positions.py\" --days 8 --save",
+    "days":  8,
+    "exit_code":  0,
+    "repo_root":  "D:\\freqtrade_position_audit",
+    "freqtrade_root":  "D:\\freqtrade",
+    "console_output":  "D:\\freqtrade_position_audit\\snapshots\\2026-06-10\\show_recent_positions.txt",
+    "source_positions":  "D:\\freqtrade\\user_func\\strategies\\research\\str_etf_v1\\live\\artifacts\\etf_live_20260326_135439\\results\\recent_positions_2026-06-09.json",
+    "source_performance":  "D:\\freqtrade\\user_func\\strategies\\research\\str_etf_v1\\live\\artifacts\\etf_live_20260326_135439\\results\\recent_performance_2026-06-09.json",
+    "copy_errors":  [
+
+                    ],
+    "dry_run":  false,
+    "no_push":  false,
+    "git":  {
+                "attempted":  true,
+                "committed":  false,
+                "pushed":  false,
+                "message":  "snapshot commit and push pending"
+            }
+}

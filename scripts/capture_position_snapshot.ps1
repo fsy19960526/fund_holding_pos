@@ -1,4 +1,4 @@
-﻿# input: D:\freqtrade 的 show_recent_positions.py、.venv Python、artifact results 与 Git 远端。
+﻿# input: D:\freqtrade 的 show_recent_positions.py、.venv Python、UTF-8 stdout 环境、artifact results 与 Git 远端。
 # output: snapshots\YYYY-MM-DD 下的控制台输出、仓位 JSON、收益 JSON、run_meta.json，并可提交推送。
 # pos: Windows 计划任务调用的每日仓位审计入口；一旦我被更新，务必更新开头注释以及 scripts\FOLDER_README.md。
 
@@ -17,6 +17,8 @@ param(
 $ErrorActionPreference = 'Stop'
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $OutputEncoding = [System.Text.Encoding]::UTF8
+$env:PYTHONIOENCODING = 'utf-8'
+$env:PYTHONUTF8 = '1'
 
 function Resolve-RepoRoot {
     param([string]$ExplicitRepoRoot)
