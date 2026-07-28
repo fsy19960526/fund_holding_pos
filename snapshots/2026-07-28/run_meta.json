@@ -18,8 +18,8 @@
     "no_push":  false,
     "git":  {
                 "attempted":  true,
-                "committed":  false,
+                "committed":  true,
                 "pushed":  false,
-                "message":  "snapshot commit and push pending"
+                "message":  "git push failed"
             }
 }
